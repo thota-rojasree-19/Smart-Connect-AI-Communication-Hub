@@ -1,0 +1,10 @@
+To reproduce login/update-password errors:
+
+1) Start backend:
+   cd C:\Users\sreer\OneDrive\Desktop\Smart_connect\backend
+   npm start
+
+2) Open browser DevTools -> Network -> attempt login or update password.
+   - Inspect POST /api/auth/login or PUT /api/user/update-password response body for message.
+
+3) Check backend console for error logs (added logging for login route).
